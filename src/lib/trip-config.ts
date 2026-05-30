@@ -1,11 +1,10 @@
-import heroImg from "@/assets/hero-indonesia.jpg";
-import uluwatuImg from "@/assets/uluwatu.jpg";
-import nusaImg from "@/assets/nusa-lembongan.jpg";
-import giliImg from "@/assets/gili-t.jpg";
-import kutaImg from "@/assets/kuta-lombok.jpg";
-import vibeBoatPartyImg from "@/assets/vibe-boatparty.jpg";
-import vibeMantarayImg from "@/assets/vibe-mantaray.jpg";
-import vibeSunsetImg from "@/assets/vibe-sunset.jpg";
+import heroImg from "@/assets/hero-thailand.jpg";
+import bangkokImg from "@/assets/bangkok.jpg";
+import chiangmaiImg from "@/assets/chiangmai.jpg";
+import paiImg from "@/assets/pai.jpg";
+import vibePubcrawlImg from "@/assets/vibe-pubcrawl.jpg";
+import vibeWaterfallImg from "@/assets/vibe-waterfall.jpg";
+import vibeTubingImg from "@/assets/vibe-tubing.jpg";
 import logoImg from "@/assets/mad-monkey-logo.png";
 
 export interface TripConfig {
@@ -78,23 +77,23 @@ export interface TripConfig {
 
 export const tripConfig: TripConfig = {
   creator: {
-    name: "VINCENZO",
-    instagram: "@vncdeleo",
-    instagramUrl: "https://instagram.com/vncdeleo",
-    tiktok: "@vncdeleo",
-    tiktokUrl: "https://tiktok.com/@vncdeleo",
+    name: "DAVID",
+    instagram: "@whatdaviddoesnext",
+    instagramUrl: "https://instagram.com/whatdaviddoesnext",
+    tiktok: "@whatdaviddoesnext",
+    tiktokUrl: "https://tiktok.com/@whatdaviddoesnext",
   },
   poweredBy: {
     name: "Mad Monkey",
     logo: logoImg,
   },
   trip: {
-    title: "Indonesia Takeover",
+    title: "Northern Thailand Takeover",
     highlightColor: "red",
-    dates: "JUL 5 - JUL 19",
-    durationDays: 15,
-    locationCount: 4,
-    locationLabel: "across Indonesia",
+    dates: "OCT 3 - OCT 13",
+    durationDays: 11,
+    locationCount: 3,
+    locationLabel: "across Northern Thailand",
     heroImage: heroImg,
   },
   stripeBookingUrl: "https://buy.stripe.com/aFaeVc2A38ruaik85ke7t20",
@@ -104,69 +103,55 @@ export const tripConfig: TripConfig = {
   },
   pricing: {
     currency: "£",
-    total: 550,
-    deposit: 182,
+    total: 489,
+    deposit: 163,
     instalments: [
-      { amount: 182, due: "21/06" },
-      { amount: 182, due: "28/06" },
+      { amount: 163, due: "05/09" },
+      { amount: 163, due: "26/09" },
     ],
-    depositDeadline: "07/06",
+    depositDeadline: "22/08",
     minTravellers: 12,
   },
   locations: [
     {
-      name: "Uluwatu",
-      daysLabel: "Days 1-4",
-      duration: "4 Days (Jul 5-8)",
-      image: uluwatuImg,
+      name: "Bangkok",
+      daysLabel: "Days 1-3",
+      duration: "3 Days (Oct 3-5)",
+      image: bangkokImg,
       description:
-        "Kick off in Uluwatu — cliffside sunsets, surf lessons, sunrise volcano treks, and live DJ nights at Mad Monkey.",
+        "Kick off in Bangkok — karaoke nights, the legendary Khao San Road pub crawl, canal cruises on the Chao Phraya, and an overnight train north.",
       highlights: [
-        "Day 1 (05/07) — Sun: Arrive at Denpasar (DPS) Airport. Transfer to Mad Monkey Uluwatu. Welcome Sunset session at Panorama Point Uluwatu (5PM-7:30PM).",
-        "Day 2 (06/07) — Mon: Surf Lesson (9AM-11AM) + relaxing evening at the hostel.",
-        "Day 3 (07/07) — Tue: Mt Batur Sunrise Trekking (1:30AM-11AM). Recharge with Mad Monkey sauna, hot tub and ice baths.",
-        "Day 4 (08/07) — Wed: Live DJ + Free Flow (8PM-11PM).",
+        "Day 1 (03/10) — Sun: Arrive in Bangkok. Group karaoke sing-along, then hit Khao San Road for the ultimate pub crawl.",
+        "Day 2 (04/10) — Mon: Shake off the hangover and explore Bangkok city. Pub quiz in the evening.",
+        "Day 3 (05/10) — Tue: Canal cruise along the Chao Phraya River, then board the overnight train to Chiang Mai.",
       ],
     },
     {
-      name: "Nusa Lembongan",
-      daysLabel: "Days 5-7",
-      duration: "3 Days (Jul 9-11)",
-      image: nusaImg,
+      name: "Chiang Mai",
+      daysLabel: "Days 4-7",
+      duration: "4 Days (Oct 6-9)",
+      image: chiangmaiImg,
       description:
-        "Island life on Nusa Lembongan — fast boats, Nusa Penida island hopping, pool parties, and unlimited BBQ and drinks.",
+        "Northern Thailand's adventure capital — elephants, waterfalls, mountain temples, BBQ buffets and the legendary Mad Challenge.",
       highlights: [
-        "Day 5 (09/07) — Thur: Taxi to Sanur, then 30-min fast boat to Mad Monkey Nusa Lembongan. Enjoy ice baths, saunas, gym and the luxury pool.",
-        "Day 6 (10/07) — Fri: Island Hopping around Nusa Penida (8:30AM-5PM). Mad Monkey Pool Party (6PM-10PM).",
+        "Day 4 (06/10) — Wed: Arrive Chiang Mai early. Power nap, then Chiang Mai Grand Canyon Water Park. Nightly 'Mad Challenge' for those who can hack it.",
+        "Day 5 (07/10) — Thu: Elephant Sanctuary and Sticky Waterfall tour. Pool tournament back at the hostel.",
+        "Day 6 (08/10) — Fri: Free day to explore Chiang Mai. BBQ buffet at 4PM or the Chiang Mai ultimate pub crawl.",
+        "Day 7 (09/10) — Sat: Doi Suthep and waterfall tour, followed by a beer pong tournament.",
       ],
     },
     {
-      name: "Gili Trawangan",
-      daysLabel: "Days 7-9",
-      duration: "3 Days (Jul 11-13)",
-      image: giliImg,
+      name: "Pai",
+      daysLabel: "Days 8-10",
+      duration: "3 Days (Oct 10-12)",
+      image: paiImg,
       description:
-        "Crystal-clear waters, snorkelling with turtles, beach volleyball, and a mid-trip free day to explore Gili T your way.",
+        "762 turns into the mountains for jungle rafting, tipsy tubing, hot springs and sunsets at Two Huts. Pai hits different.",
       highlights: [
-        "Day 7 (11/07) — Sat: Early fast boat to Gili Trawangan. Mad Monkey Boat Party (2PM-6PM). Unlimited BBQ and drinks back at MM.",
-        "Day 8 (12/07) — Sun: Monkey Sea Monkey Do snorkelling tour (10:30AM-4PM). Beach Volleyball Tournament + Live DJ (3PM-7PM).",
-        "Day 9 (13/07) — Mon: Mid-trip free day to explore Gili T.",
-      ],
-    },
-    {
-      name: "Kuta Lombok",
-      daysLabel: "Days 10-15",
-      duration: "6 Days (Jul 14-19)",
-      image: kutaImg,
-      description:
-        "Wind it down in Kuta Lombok — waterfall tours, surf lessons, BBQs, free flow, and a slow recovery before flying home.",
-      highlights: [
-        "Day 10 (14/07) — Tue: Short boat to Lombok mainland, then shuttle to Mad Monkey Kuta Lombok.",
-        "Day 11 (15/07) — Wed: Lombok Signature Waterfall Tour (10AM-5PM).",
-        "Day 12 (16/07) — Thur: Relax and explore Kuta.",
-        "Day 13 (17/07) — Fri: Surf Lesson (9AM-12PM).",
-        "Day 14 (18/07) — Sat: Surf Lesson (9AM-12PM) + BBQ & Free Flow.",
-        "Day 15 (19/07) — Sun: Recovery breakfast and 30-min shuttle to Lombok Airport (LOP).",
+        "Day 8 (10/10) — Sun: 4-hour minibus ride (762 turns!) to Pai. Sunset hike at Pai Canyon.",
+        "Day 9 (11/10) — Mon: Pai's ultimate one-day rafting adventure — jungle cliffs, waterfalls and hot springs. Wind down at Two Huts for sunset.",
+        "Day 10 (12/10) — Tue: Pai's famous tipsy tubing. Final sunset at Two Huts to close out the trip.",
+        "Day 11 (13/10) — Wed: Travel back to Chiang Mai Airport.",
       ],
     },
   ],
@@ -177,7 +162,7 @@ export const tripConfig: TripConfig = {
       items: [
         "Mixed or Female shared dorms",
         "Mad Monkey hostels throughout",
-        "Uluwatu, Nusa Lembongan, Gili T & Kuta Lombok",
+        "Bangkok, Chiang Mai & Pai",
       ],
     },
     {
@@ -185,8 +170,8 @@ export const tripConfig: TripConfig = {
       title: "Transport",
       items: [
         "All internal transport",
-        "Fast boats between islands",
-        "Shuttle to Lombok Airport (LOP)",
+        "Overnight train Bangkok → Chiang Mai",
+        "Minibus Chiang Mai → Pai → Chiang Mai Airport",
         "Does NOT include international flights",
       ],
     },
@@ -194,39 +179,38 @@ export const tripConfig: TripConfig = {
       icon: "utensils",
       title: "Tours & Extras",
       items: [
-        "Welcome Sunset session at Panorama Point",
-        "Mt Batur Sunrise Trek",
-        "Surf lessons in Uluwatu & Kuta Lombok",
-        "Nusa Penida island hopping",
-        "Mad Monkey pool & boat parties",
-        "Monkey Sea Monkey Do snorkelling tour",
-        "Beach volleyball tournament + Live DJ",
-        "Lombok Signature Waterfall Tour",
-        "Unlimited BBQ & Free Flow nights",
-        "Sauna, hot tub & ice bath access",
+        "Khao San Road pub crawl",
+        "Chao Phraya canal cruise",
+        "Chiang Mai Grand Canyon Water Park",
+        "Elephant Sanctuary & Sticky Waterfall tour",
+        "Doi Suthep & waterfall tour",
+        "Pai Canyon sunset hike",
+        "Pai one-day rafting adventure",
+        "Pai tipsy tubing",
+        "BBQ buffet + pool / beer pong tournaments",
         "Group leader in every location",
         "WhatsApp support group",
       ],
     },
   ],
   notIncluded: [
-    { title: "International Flights", description: "Flights to and from Indonesia" },
+    { title: "International Flights", description: "Flights to and from Thailand" },
     { title: "Personal Spend", description: "Meals, drinks, and optional activities not listed in the itinerary" },
-    { title: "Visas", description: "Indonesia visa on arrival (approx. $35)" },
+    { title: "Visas", description: "Thailand visa on arrival if required for your passport" },
     { title: "Travel Insurance", description: "Mandatory for all travellers" },
   ],
   whoItsFor: [
     "You're an 18–30 year old social traveller looking for the trip of a lifetime.",
-    "You love island hopping, surf, sunsets, and beach party energy.",
+    "You love jungle adventures, mountain sunsets, and big-night-out energy.",
     "You want the logistics handled so you can just show up and have fun.",
     "You're a solo traveller who wants instant community and core memories.",
-    "You're a first-time backpacker looking for an easy way in.",
+    "You're a first-time backpacker looking for an easy way into Southeast Asia.",
   ],
   bookingSteps: [
     {
       title: "Pay Your Deposit",
       description:
-        "Pay your £182 deposit via the link below by 07/06.",
+        "Pay your £163 deposit via the link below by 22/08.",
     },
     {
       title: "Join the Crew",
@@ -236,16 +220,16 @@ export const tripConfig: TripConfig = {
     {
       title: 'Wait for the "GO"',
       description:
-        "This trip requires 12 confirmed travellers by 07/06. As soon as we hit the minimum, we'll confirm the takeover is ON.",
+        "This trip requires 12 confirmed travellers by 22/08. As soon as we hit the minimum, we'll confirm the takeover is ON.",
     },
     {
       title: "Pay Your Instalments",
       rows: [
-        { label: "Deposit", amount: "£182", due: "07/06" },
-        { label: "Instalment 1", amount: "£182", due: "21/06" },
-        { label: "Instalment 2", amount: "£182", due: "28/06" },
+        { label: "Deposit", amount: "£163", due: "22/08" },
+        { label: "Instalment 1", amount: "£163", due: "05/09" },
+        { label: "Instalment 2", amount: "£163", due: "26/09" },
       ],
-      footer: "Total trip cost: £550",
+      footer: "Total trip cost: £489",
     },
     {
       title: "Book Your Flights",
@@ -311,9 +295,9 @@ export const tripConfig: TripConfig = {
     },
   ],
   vibeGallery: [
-    { image: vibeBoatPartyImg, alt: "Mad Monkey boat party in Indonesia" },
-    { image: vibeMantarayImg, alt: "Snorkelling with manta rays around Nusa Penida" },
-    { image: vibeSunsetImg, alt: "Cliffside sunset in Uluwatu Bali" },
+    { image: vibePubcrawlImg, alt: "Khao San Road pub crawl in Bangkok" },
+    { image: vibeWaterfallImg, alt: "Sticky Waterfall climbing near Chiang Mai" },
+    { image: vibeTubingImg, alt: "Tipsy tubing down a jungle river in Pai" },
   ],
   footer: {
     copyright: "Powered by Mad Monkey",
