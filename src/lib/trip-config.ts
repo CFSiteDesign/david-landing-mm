@@ -244,14 +244,9 @@ export const tripConfig: TripConfig = {
         "No. This trip is beginner-friendly. All transport, accommodation, and activities are organised for you — you just need to show up ready for adventure.",
     },
     {
-      question: "Do I need to know how to surf?",
-      answer:
-        "Not at all. Surf lessons in Uluwatu and Kuta Lombok are designed for total beginners, with experienced local instructors and soft boards. If you're already a surfer, you'll love the waves too.",
-    },
-    {
       question: "What kind of luggage should I bring?",
       answer:
-        "We recommend a backpack or medium-sized duffel — easier to manage on fast boats and island transfers.",
+        "We recommend a backpack or medium-sized suitcase (hostels and boats are easier to navigate without oversized luggage).",
     },
     {
       question: "Can I request to share a room with someone?",
@@ -266,7 +261,12 @@ export const tripConfig: TripConfig = {
     {
       question: "Is this a party trip?",
       answer:
-        "It's a high-energy social trip with free flow nights, pool parties, and boat parties — but Indonesia is also about surf, sunrises, snorkelling, and downtime. Join in as much or as little as you like.",
+        "This is a social, high-energy trip with boat parties and nightlife built in — but it also includes beach days, adventure activities, and downtime. You can participate as much or as little as you like.",
+    },
+    {
+      question: "Can I skip activities if I want to relax?",
+      answer:
+        "Absolutely. While group activities are included, you're free to opt out of anything and enjoy free time instead.",
     },
     {
       question: "What if I get sick or injured?",
@@ -276,22 +276,12 @@ export const tripConfig: TripConfig = {
     {
       question: "Will there be WiFi?",
       answer:
-        "Yes — all Mad Monkey locations have WiFi, though speeds may vary on the smaller islands.",
+        "Yes — all Mad Monkey locations have WiFi, though speeds may vary depending on island location.",
     },
     {
       question: "Is there a payment plan available?",
       answer:
-        "Yes. £182 deposit by 07/06, then £182 by 21/06 and £182 by 28/06. Total cost is £550. Missed payments may result in your spot being released.",
-    },
-    {
-      question: "Is there a minimum number of travellers required?",
-      answer:
-        "Yes — 12 confirmed travellers by 07/06. If this minimum isn't met, the trip will be cancelled and all payments will be fully refunded.",
-    },
-    {
-      question: "What is the cancellation policy?",
-      answer:
-        "If you cancel before the trip is confirmed, you'll receive a full refund of your deposit. If you cancel after the trip is confirmed, all payments are non-refundable. We strongly recommend travel insurance with 'Cancel for Any Reason' (CFAR) coverage.",
+        "Yes. You can secure your spot with a deposit, then pay the remaining balance in scheduled installments before departure. All payment deadlines will be shared after booking. Missed payments may result in your spot being released.",
     },
   ],
   vibeGallery: [
