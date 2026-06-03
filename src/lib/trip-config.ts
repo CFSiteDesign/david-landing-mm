@@ -96,7 +96,7 @@ export const tripConfig: TripConfig = {
     locationLabel: "across Northern Thailand",
     heroImage: heroImg,
   },
-  stripeBookingUrl: "https://buy.stripe.com/aFaeVc2A38ruaik85ke7t20",
+  stripeBookingUrl: "https://buy.stripe.com/dRm5kCdeHdLOcqs1GWe7t2S",
   spots: {
     total: 12,
     remainingText: "ONLY 12 SPOTS LEFT!",
