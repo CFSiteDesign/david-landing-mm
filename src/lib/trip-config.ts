@@ -200,7 +200,7 @@ export const tripConfig: TripConfig = {
     { title: "Travel Insurance", description: "Mandatory for all travellers" },
   ],
   whoItsFor: [
-    "You're an 18–30 year old social traveller looking for the trip of a lifetime.",
+    "You're a social traveller looking for the trip of a lifetime.",
     "You love jungle adventures, mountain sunsets, and big-night-out energy.",
     "You want the logistics handled so you can just show up and have fun.",
     "You're a solo traveller who wants instant community and core memories.",
